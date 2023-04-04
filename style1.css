@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333333;
+    color: white;
+}
+
+/* --------- Header Section ----------- */
+
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 100vw;
+    margin: 0.5vw;
+    height: 4.2vw;
+    border: 1px solid #B1A592;
+    border-radius: 4.2vw;
+}
+
+.left-section{
+width: 23vw;
+height: 3.2vw;
+background: #323025;
+border-radius: 4.2vw;
+}
+
+.left-section > div {
+    font-family: 'Inter', sans-serif;    
+font-style: normal;
+font-weight: 400;
+font-size: 2vw;
+line-height: 2.3vw;
+text-align: center;
+color: #B1A592;
+}
+
+.middle-section {
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+width: 12vw;
+height: 3.2vw;
+left: 26vw;
+gap: 4vw;
+
+}
+
+.middle-section > div {
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw; 
+    text-align: center;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 0.7vw;
+    border: 1px solid #B1A592;
+    border-radius: 4.2vw;
+    color: #B1A592;;
+}
+.middle-section div:hover{
+    background-color: #B1A592;
+    color: black;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12vw;
+    height: 3.2vw;
+    left: 87vw;
+    border: 1px solid #B1A592;
+    border-radius: 4.2vw;
+
+}
+
+.right-section>div{
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vw;
+    line-height: 2.3vw;
+    color: #B1A592;
+    padding-left: 2.8vw;
+}
+.right-section div:hover{
+    background-color: #B1A592;
+    color: black;
+}
+.menudata{
+    display: none;
+}
+/* --------- Header Section ----------- */
+.card1{
+position: absolute;
+width: 35vw;
+height: 80vw;
+left: 1vw;
+top: 6vw;
+background: #DFD6C5;
+border-radius: 2.5vw;
+}
+.card1>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 16vw;
+    height: 3vw;
+    left: 2vw;
+    top: 2vw;
+    padding-top: 0.6vw;
+    border: 1px solid #323025;
+    border-radius: 4.2vw;
+    text-align: center;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: #323025;
+}
+.card1>h1{
+    position: absolute;
+    width: 22vw;
+    height: 2.2vw;
+    left: 2vw;
+    top: 6vw;
+    font-family: 'Inter', sans-serif;   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    text-decoration-line: underline;
+    color: #333333;
+
+}
+
+.imgcard>img{
+    position: absolute;
+    width: 30vw;
+    height: 60vw;
+    left: 0.5vw;
+    top: 8vw;
+    border-radius: 20px;
+    transition: 0.5s all ease-in;
+
+}
+.imgcard:hover img {
+    transform: scale(0.9);
+}
+.card1>span{
+    position: absolute;
+    width: 45vw;
+    height: 0vw;
+    top: 72vw;
+    border: 1px solid #333333;
+
+}
+.card1>p{
+    position: absolute;
+    width: 16vw;
+    height: 2.2vw;
+    left: 1vw;
+    top: 75vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2.3vw;
+    color: #333333;
+}
+
+.card1>i {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 27vw;
+    top: 75vw;
+    color: #323025;
+}
+.card2{
+    position: absolute;
+    width: 62vw;
+    height: 30vw;
+    left: 38vw;
+    top: 6vw;
+    background: #8E886D;
+    border-radius: 2.5vw;
+
+}
+.card2>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 16vw;
+    height: 3vw;
+    left: 2vw;
+    top: 1.5vw;
+    padding-top: 0.6vw;
+    border: 1px solid #323025;
+    border-radius: 4.2vw;
+    text-align: center;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: #323025;
+
+}
+.card2>h1{
+    position: absolute;
+    width: 22vw;
+    height: 2.2vw;
+    left: 2vw;
+    top: 6vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    text-decoration-line: underline;
+    color: #333333;
+
+}
+.card2>p{
+    position: absolute;
+    width: 32vw;
+    height: 6vw;
+    left: 1.8vw;
+    top: 11vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: #333333;
+
+}
+.card2>span{
+    position: absolute;
+    width: 62vw;
+    height: 0px;
+    top: 23vw;
+    border: 1px solid #333333;
+
+}
+.card2>h2{
+    position: absolute;
+    width: 16vw;
+    height: 2.2vw;
+    left: 1.8vw;
+    top: 25vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+    color: #333333;
+
+}
+.card2>i{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 57vw;
+    top: 25vw;
+    color: #323025;
+  
+}
+.imgcard2>img{
+    position: absolute;
+    width: 32vw;
+    height: 20vw;
+    left: 27.5vw;
+    top: 0.5vw;
+    border-radius: 1.8vw;
+    transition: 0.5s all ease-in;
+
+  }
+  
+.imgcard2:hover img {
+    transform: scale(0.9);
+}
+  .card3{
+    position: absolute;
+    width: 25vw;
+    height: 48vw;
+    left: 38vw;
+    top: 38vw;
+    background: #916E58;
+    border-radius: 2.3vw;
+
+  }
+  .imgcard3>img{
+    position: absolute;
+    width: 23vw;
+    height: 13vw;
+    left: 0.9vw;
+    top: 0.9vw;
+    border-radius: 1.8vw;
+    transition: 0.5s all ease-in;
+
+  }
+  
+.imgcard3:hover img {
+    transform: scale(0.9);
+}
+.card3>h1{
+    position: absolute;
+    width: 25vw;
+    height: 5vw;
+    left:2vw;
+    top: 14vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 3.7vw;
+    text-decoration-line: underline;
+    color: #333333;
+}
+.card3>p{
+    position: absolute;
+    width: 29vw;
+    height: 20vw;
+    top: 20vw;
+    left: -2vw;
+    font-family: 'Inter', sans-serif;   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.33333vw;
+    line-height: 2vw;
+    text-align: center;
+    color: #333333;
+
+}
+.card3>span{
+    position: absolute;
+    width: 29vw;
+    height: 0px;
+    top: 40vw;
+    border: 1px solid #333333;
+
+}
+.card3>h2{
+    position: absolute;
+    width: 16vw;
+    height: 2.2vw;
+    left: 1.8vw;
+    top: 42vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+    color: #333333;
+
+}
+.card3>i{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 20vw;
+    top: 42vw;
+    color: #323025;
+}
+.card4{
+    position: absolute;
+    width: 36vw;
+    height: 48vw;
+    left: 64vw;
+    top: 38vw;
+    background: #B1A48E;
+    border-radius: 2.5vw;
+
+}
+.card4>img{
+    position: absolute;
+    width: 9.4vw;
+    height: 9.4vw;
+    left: 25vw;
+    top: 4vw;
+    border-radius: 2500vw;
+
+}
+.card4>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 17.25vw;
+    height: 2.9vw;
+    left: 1.6vw;
+    top: 3.33vw;
+    text-align: center;
+    border: 1px solid #323025;
+    border-radius: 4.6vw;
+    font-family: 'Inter', sans-serif;   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 2vw;
+    color: #323025;
+}
+.card4>h1{
+    position: absolute;
+    width: 25.33;
+    height: 4.9vw;
+    left: 3.3vw;
+    top: 7vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 3.66vw;
+    text-decoration-line: underline;
+    color: #333333;
+
+}
+.card4>p{
+    position: absolute;
+    width: 40.42vw;
+    height: 26vw;
+    left: -3.3vw;
+    top: 13vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 2vw;
+    text-align: center;
+    color: #333333;
+
+}
+.card4>span{
+    position: absolute;
+    width: 36vw;
+    height: 0px;
+    top: 40vw;
+    border: 1px solid #333333;
+
+}
+.card4>h2{
+    position: absolute;
+    width: 16vw;
+    height: 2.2vw;
+    left: 1.8vw;
+    top: 42vw;
+    font-family: 'Inter', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+    color: #333333;
+
+}
+.card4>i{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 30vw;
+    top: 42vw;
+    color: #323025;
+}
+
+@media (max-width:840px){
+    .right-section{
+     display: none;
+    }
+    .middle-section{
+     display: none;
+    }
+    .menudata{
+     display: flex;
+     align-items: center;
+     box-sizing: border-box;
+     position: absolute;
+     width: 12vw;
+     height: 3.2vw;
+     left: 87vw;
+     border: 1px solid #B1A592;
+     border-radius: 4.2vw;
+     font-family: 'Inter', sans-serif;    
+     font-style: normal;
+     font-weight: 400;
+     font-size: 1.7vw;
+     line-height: 2.3vw;
+     color: #B1A592;
+     padding-left: 2.8vw;
+ 
+    }
+    .left-section{
+     display: flex row;
+    }
+    
+ }
